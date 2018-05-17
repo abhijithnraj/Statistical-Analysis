@@ -28,7 +28,7 @@ def lagrange_interpolation_algorithm(x_entered):
 		solution+=L(x_entered,i)*y[i]
 	return solution
 
-#displaying the results of the calcualtions
+#displaying the results of the calculations
 print("Solution is y("+str(x_entered)+")= "+ str(lagrange_interpolation_algorithm(x_entered)))
 
 
